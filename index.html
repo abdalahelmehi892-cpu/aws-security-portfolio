@@ -224,7 +224,7 @@
         <h2>Architecture & Security Labs</h2>
         <div class="projects-grid">
             
-            <!-- Lab 1 -->
+            <!-- Lab 1: VPC & Network -->
             <div class="project-card">
                 <div class="project-top">
                     <span class="project-tag highlight-blue">AWS ACADEMY</span>
@@ -237,29 +237,55 @@
                 </div>
             </div>
 
-            <!-- Lab 2 -->
+            <!-- Lab 2: HA & Scaling -->
             <div class="project-card">
                 <div class="project-top">
-                    <span class="project-tag highlight-red">AWS SECURITY</span>
+                    <span class="project-tag highlight-red">HIGH AVAILABILITY</span>
                     <span class="project-num">L2</span>
                 </div>
-                <h3>IAM Roles & Least Privilege Policies</h3>
-                <p>Implemented fine-grained access control policies, multi-factor authentication enforcement, and secure cross-account role delegations.</p>
+                <h3>Load Balancers & Auto Scaling Groups</h3>
+                <p>Configured Application Load Balancers (ALB) coupled with Auto Scaling Groups across multiple AZs to ensure fault tolerance and traffic distribution.</p>
                 <div class="tech-stack">
-                    <span>AWS IAM</span><span>Policies</span><span>MFA</span>
+                    <span>ALB</span><span>ASG</span><span>Multi-AZ</span>
                 </div>
             </div>
 
-            <!-- Lab 3 -->
+            <!-- Lab 3: Disaster Recovery -->
             <div class="project-card">
                 <div class="project-top">
-                    <span class="project-tag highlight-blue">CLOUD HARDENING</span>
+                    <span class="project-tag highlight-blue">RELIABILITY</span>
                     <span class="project-num">L3</span>
                 </div>
-                <h3>EC2 Hardening & CloudWatch Monitoring</h3>
-                <p>Deployed secure EC2 instances, monitored server logs, and set up CloudWatch alarms for real-time security threat detection and alerts.</p>
+                <h3>Disaster Recovery & Data Backup</h3>
+                <p>Architected robust backup strategies, cross-region replication, and automated snapshot lifecycles to guarantee business continuity during failures.</p>
                 <div class="tech-stack">
-                    <span>EC2</span><span>CloudWatch</span><span>Linux SSH</span>
+                    <span>S3 Replication</span><span>Snapshots</span><span>Backup Strategies</span>
+                </div>
+            </div>
+
+            <!-- Lab 4: Security & Incident Response -->
+            <div class="project-card">
+                <div class="project-top">
+                    <span class="project-tag highlight-red">SECURITY OPERATIONS</span>
+                    <span class="project-num">L4</span>
+                </div>
+                <h3>IAM Security & Incident Response</h3>
+                <p>Implemented least-privilege IAM roles, security monitoring, and simulated incident response workflows using AWS CloudWatch and GuardDuty.</p>
+                <div class="tech-stack">
+                    <span>AWS IAM</span><span>CloudWatch</span><span>GuardDuty</span>
+                </div>
+            </div>
+
+            <!-- Lab 5: Infrastructure as Code -->
+            <div class="project-card">
+                <div class="project-top">
+                    <span class="project-tag highlight-blue">AUTOMATION / IaC</span>
+                    <span class="project-num">L5</span>
+                </div>
+                <h3>Infrastructure as Code with Terraform</h3>
+                <p>Provisioned secure and repeatable AWS cloud infrastructure (VPCs, EC2, IAM) using Terraform state management and modular configurations.</p>
+                <div class="tech-stack">
+                    <span>Terraform</span><span>AWS CLI</span><span>Automation</span>
                 </div>
             </div>
 
